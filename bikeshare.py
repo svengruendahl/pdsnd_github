@@ -29,7 +29,7 @@ def get_filters():
     city = str(input('Would you like to see data for Chicago, New York, or Washington?\n').title())
 
     while city not in cities:
-        city =input("Please choose only Chicago, New York or Washington!\n").title()
+        city =input("Please choose only one of the cities: Chicago, New York or Washington!\n").title()
 
     print("Your choice: {}! If this is not true, please restart the program!\n\n\n".format(city))
     city = city.lower()
@@ -294,6 +294,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
+            print('Restarting the programm...')
             break
 
 

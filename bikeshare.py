@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+"""Please note that the CSV files are mandatory in order to run the program"""
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
